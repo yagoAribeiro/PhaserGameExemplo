@@ -22,8 +22,8 @@
     var client = new Phaser.Game(config), score = 0, scoreText;
 
     function preload() {
-        folder = "PhaserExemplo1";
-        this.load.setBaseURL('http://127.0.0.1');
+        folder = ".";
+        //this.load.setBaseURL('http://127.0.0.1');
         this.load.image('sky', folder + '/img/sky.png');
         this.load.image('ground', folder + '/img/platform.png');
         this.load.image('star', folder + '/img/star.png');
